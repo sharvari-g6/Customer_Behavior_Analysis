@@ -1,4 +1,4 @@
-📊 Customer Insights & Revenue Analysis
+## Customer Insights & Revenue Analysis
 
 📌 Project Overview
 
