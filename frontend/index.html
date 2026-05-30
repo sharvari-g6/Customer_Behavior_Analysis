@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartBiz Insights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📊 SmartBiz Insights</h1>
+
+    <!-- NLP Input -->
+    <div class="box">
+        <h2>Ask Your Data</h2>
+        <input type="text" id="queryInput" placeholder="e.g. top customers in winter">
+        <button onclick="askQuery()">Ask</button>
+    </div>
+
+    <!-- Results -->
+    <div class="box">
+        <h2>Result</h2>
+        <pre id="result"></pre>
+    </div>
+
+    <!-- Insights -->
+    <div class="box">
+        <h2>Insights</h2>
+        <button onclick="getInsights()">Get Insights</button>
+        <ul id="insightsList"></ul>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
